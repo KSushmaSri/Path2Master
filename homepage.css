@@ -8,7 +8,7 @@ body{
     background-color: #222;
     color: #fff;
 }
-header{
+nav{
     display: flex;
     justify-content: space-between;
     padding: 2% 0 0 1%;
@@ -23,7 +23,7 @@ header{
     0 0 40px orange,
     0 0 80px orange; */
 }
-nav{
+.links{
     width: 80%;
     display: flex;
     justify-content: center;
@@ -58,7 +58,8 @@ nav a:hover span{
     transform:scale(1) translateY(0);
     opacity: 1;
 }
-h1{
+.logo h1{
+    font-size: 32px;
     text-shadow: 0 0 10px orangered,
                  0 0 20px orangered,
                  0 0 40px orangered,
@@ -92,7 +93,7 @@ button:hover{
     display: flex;
     justify-content: space-between;
     /* border: 2px solid white; */
-    margin: 2%;
+    margin: 4%;
 }
 .headline {
     width: 50%;
