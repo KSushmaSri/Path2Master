@@ -14,21 +14,28 @@
         </div>
         <div class="links">
           <a href="Homepage.html">Home<span></span></a>
-          <a href="">Roadmaps<span></span></a>
-          <a href="">Interview Set<span></span></a>
-          <a href="">About<span></span></a>
-          <a href="">Contact<span></span></a>
+          <a href="#">Roadmaps<span></span></a>
+          <a href="#">Interview Set<span></span></a>
+          <a href="#">About<span></span></a>
+          <a href="#">Contact<span></span></a>
         </div>
         <div class="join">
           <button>Join Now</button>
         </div>
       </nav>
-      <header>
-         <h2>You are here because you are a great learner</h2>
-        <h1>Explore Domains</h1>
-        <p>Our platform offers a variety of learning opportunities across several domains. Whether you're interested in web development, data science, machine learning, or cybersecurity, you'll find resources, tools, and guides to help you succeed. Start exploring the areas that interest you the most and advance your knowledge today!</p>
-      </header>
-      <section>
+      <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-heading">Welcome to Your Learning Journey!</h1>
+            <p class="hero-subheading">You’ve made the first step. Now dive deep into the world of knowledge. Discover the domain that excites you and let’s begin the adventure!</p>
+            <p class="hero-description">Whether you're looking to build cutting-edge websites, master data science, or dive into AI, this is where your growth begins. Let's transform curiosity into expertise.</p>
+            <a href="#domains" class="scroll-button">Explore Domains</a>
+        </div>
+        <div class="scroll-down">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+      </section>  
+      <section id="domains">
         <h2>Our Domains</h2>
         <div class="domain-section">
           <div class="domain-cards">
@@ -36,16 +43,9 @@
               <img src="https://tse4.mm.bing.net/th?id=OIP.PtKnf1vXhzdaL5BE7flGxAHaEK&pid=Api&P=0&h=180" alt="">
             </div>
             <div class="domain-right">
-              <h1>Web Development</h1>
-              <p>Web development is primarily divided into two main areas:
-                <ul>
-                    <li><strong>Front-end Development:</strong> Focuses on the design, layout, and interactivity of websites using languages like HTML, CSS, and JavaScript. This is what users see and interact with.</li>
-                    <li><strong>Back-end Development:</strong> Manages the server-side logic and database interactions, ensuring that the website can handle requests, process data, and deliver content efficiently. This includes technologies like Node.js, Python, and databases such as MySQL and MongoDB.</li>
-                </ul>
-              </p>
-              <p>
-                Databases are a critical part of the back-end. They store the data that websites and applications rely on, whether it's user information, content, or transaction records. Understanding how to design, manage, and query databases is an essential skill for any back-end developer.
-              </p>
+              <h1>Web Development:<span> Build the Future of the Web</span>
+              </h1>
+              <p>Unlock the power to shape the digital world! In Web Development, you’ll learn how to create stunning, interactive websites that captivate users and bring ideas to life. Whether it's building sleek personal portfolios or robust e-commerce platforms, you’ll gain the skills to transform your vision into reality.
               <p>
                 Want to dive deeper? Click the button below to navigate to our comprehensive roadmap for mastering web development, including databases, front-end, and back-end technologies.
               </p>
@@ -58,15 +58,8 @@
               <img src="https://cdn.futura-sciences.com/buildsv6/images/wide1920/9/5/0/950321c11d_50173256_data-science-1.jpg" alt="">
             </div>
             <div class="domain-right">
-              <h1>Data Science</h1>
-              <p>Data Science is the process of analyzing and interpreting complex data to uncover patterns, trends, and insights. It combines statistics, programming, and domain expertise to solve real-world problems and drive decision-making through data.</p>
-              <p>In this domian,you will learn:
-                <ul>
-                  <li>Data collection</li>
-                  <li>Data Analysis</li>
-                  <li>Data Visulaisation</li>
-                  <li>Machine Learning</li>
-                </ul>
+              <h1>Data Science:<span> Unveil the Stories Hidden in Data</span></h1>
+              <p>Data is the new gold, and Data Science is your tool to mine it! Learn how to analyze massive datasets, uncover hidden trends, and make data-driven decisions that can change the world. From predicting future trends to building powerful models, Data Science is at the heart of innovation. Whether you're curious about machine learning or eager to dive into deep analytics, this field opens doors to limitless possibilities. Step into the realm of data and let the numbers speak!
               </p>
               <p> Ready to dive in? Click the button below to explore our roadmap and start your Data Science journey!</p>
               <a href="">Roadmap</a>
@@ -78,9 +71,9 @@
               <img src="https://www.weetechsolution.com/wp-content/uploads/2022/04/Artificial-Intelligence-machine-learning.png" alt="">
             </div>
             <div class="domain-right">
-              <h1>Artificial Intelligence and Machine Learning</h1>
-              <p>Artificial Intelligence (AI) enables machines to mimic human intelligence, while Machine Learning (ML) allows systems to learn and improve from experience without being explicitly programmed. AI and ML are revolutionizing industries by automating tasks, recognizing patterns, and making predictions.</p>
+              <h1>AI & Machine Learning:<span> Create Smarter Technologies</span></h1>
               <p>
+                Imagine a world where machines can think, learn, and evolve — that’s what you’ll create with AI and Machine Learning! Develop intelligent algorithms that can drive innovations like self-driving cars, virtual assistants, and more. Learn how to build models that adapt, improve over time, and solve complex problems in real-time. With AI and ML, you won’t just be a part of the future; you’ll be building it. Ready to teach machines how to think?</p>              <p>
                 Ready to explore AI and ML? Click the button below to start your journey with our roadmap!
             </p>
               <a href="">Roadmap</a>
@@ -94,8 +87,8 @@
               <img src="https://tse3.mm.bing.net/th?id=OIP.zMPFIZmmMXeLv_MkmKY_EwHaEK&pid=Api&P=0&h=180" alt="">
             </div>
             <div class="domain-right">
-              <h1>Cloud Computing</h1>
-              <p>Cloud Computing refers to delivering computing services—such as servers, storage, and networking—over the internet. It allows businesses and individuals to access scalable and flexible computing power on-demand.</p>
+              <h1>Cloud Computing:<span> Power the Digital World</span></h1>
+              <p>The cloud is the backbone of the modern digital world, and you’re about to master it! Learn how to design, deploy, and manage scalable applications that power industries globally. With Cloud Computing, you’ll be at the forefront of delivering high-performance, secure, and reliable services, all while reducing costs. Explore platforms like AWS, Google Cloud, and Azure, and become the architect of tomorrow's infrastructure. The sky’s not the limit — the cloud is!</p>
               <p>
                 Start your cloud journey by clicking the button below to explore our roadmap!
             </p>
@@ -108,8 +101,8 @@
               <img src="https://tse4.mm.bing.net/th?id=OIP.LGQ0Eja_NrJ-XswAs-tqEQHaEo&pid=Api&P=0&h=180" alt="">
             </div>
             <div class="domain-right">
-              <h1>Cybersecurity</h1>
-              <p>Cybersecurity is the practice of protecting systems, networks, and data from digital attacks. As cyber threats become more sophisticated, cybersecurity plays a crucial role in ensuring the safety and integrity of information.</p>
+              <h1>Cybersecurity: <span>Become the Guardian of the Digital Age</span></h1>
+              <p>In a world full of cyber threats, become the hero that keeps digital assets safe. Cybersecurity empowers you to protect systems, networks, and data from attacks. From ethical hacking to designing robust security protocols, you'll learn to think like a hacker to outsmart them. In this high-demand field, your skills will make you the guardian of sensitive information, protecting people and businesses from potential disasters. Ready to defend the digital frontier?</p>
               <p>
                 Ready to secure the digital world? Click below to explore the roadmap for cybersecurity.
             </p>
@@ -122,8 +115,8 @@
               <img src="https://uaewebsitedevelopment.com/wp-content/uploads/2022/08/UI-and-UX.jpg" alt="">
             </div>
             <div class="domain-right">
-              <h1>UI/UX Design</h1>
-              <p>UI (User Interface) and UX (User Experience) design focuses on creating user-friendly interfaces and ensuring a seamless interaction between users and products. Great UI/UX design improves usability and enhances user satisfaction.</p>
+              <h1>UI/UX Design:<span> Craft Exceptional Digital Experiences</span></h1>
+              <p>Design is where function meets beauty, and with UI/UX Design, you’ll be the artist behind delightful user experiences. Learn how to craft intuitive, user-centered designs that make technology effortless and enjoyable to use. From wireframes to prototypes, you’ll shape how users interact with digital products, creating interfaces that are not only functional but also visually stunning. If you love solving problems with creativity, UI/UX is where you can make a real impact on how people experience the web and apps.</p>
               <p>
                 Dive into UI/UX design by clicking the button below to explore the roadmap.
             </p>
@@ -137,8 +130,8 @@
               <img src="https://knowledgesthali.com/wp-content/uploads/2023/03/image-16.png" alt="">
             </div>
             <div class="domain-right">
-              <h1>Mobile App Development </h1>
-              <p>Mobile App Development is the process of creating applications for mobile devices. Whether for Android or iOS, mobile apps are an integral part of everyday life, allowing users to access services, games, and tools on the go.</p>
+              <h1>Mobile App Development:<span> Bring Ideas to Life in Your Pocket</span></h1>
+              <p>Mobile devices are everywhere, and you have the power to create apps that people rely on every day! With Mobile App Development, you’ll learn how to build responsive, high-performance applications for Android, iOS, and more. From games to productivity tools, your app could be the next big thing. With hands-on coding and real-world projects, you’ll bring your ideas to life and launch them right into users' hands.</p>
               <p>
                 Ready to build mobile apps? Click below to explore the roadmap for mobile app development.
             </p>
@@ -151,8 +144,8 @@
               <img src="https://www.careerbright.com/wp-content/uploads/2020/05/soft-skills.jpg" alt="">
             </div>
             <div class="domain-right">
-              <h1>Soft Skills For Tech Professionals </h1>
-              <p>Soft skills are critical for success in the tech industry. These skills enhance communication, teamwork, problem-solving, and leadership, making you more effective in the workplace and helping you thrive in your career.</p>
+              <h1>Soft Skills for Tech Professionals:<span>Elevate Your Tech Game with People Power</span> </h1>
+              <p>In the fast-paced tech world, mastering code isn’t enough — communication, collaboration, and leadership are the keys to success. Develop the essential soft skills that help you thrive in any team, present your ideas confidently, and lead projects to success. From problem-solving to emotional intelligence, these skills will set you apart and help you excel in every aspect of your tech career.</p>
               <a href="">Roadmap</a>
             </div>
           </div>
