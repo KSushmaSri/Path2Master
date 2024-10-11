@@ -85,56 +85,30 @@ button:hover{
                  0 0 40px orange,
                  0 0 80px orange;
 }
-.hero h1{
-    padding: 5px 0 0 0;
-    text-align: center;
-    font-size: 32px;
-}
+
 .hero{
     background: linear-gradient(to right, rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.3)), url(map.jpg);
-    background-size: cover; /* Or use contain, depending on the result */
+    background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
     height: 88vh;
     margin-top: 75px;
 }
+.hero h1 {
+    padding: 5px 0 0 0;
+    text-align: center;
+    font-size: 32px;
+    border: 2px solid red;
+}
+.hero p{
+    border: 2px solid red;
+    text-align: center;
+}
 .hero-section{
-    display: flex;
-    justify-content: space-evenly;
-}
-.get-in-touch{
-    width: 440px;
-    padding: 5% 0%;
-    /*margin: 0 0 0 10%;
-    border: 2px solid red; */
-}
-.get-in-touch h2{
-    font-size: 30px;
-    margin-bottom: 2%;
-}
-.get-in-touch h4{
-    margin-bottom: 2%;
-}
-.get-in-touch .details{
-    padding: 4% 2%;
-}
-.get-in-touch .details i{
-    padding: 2%;
-}
-.get-in-touch .details p{
-    padding-left: 42px;
-}
-.text{
-    display: inline;
-    margin: 10px;
-}
-/* .contact-us{
     border: 2px solid white;
-    width: 300px;
-    height: 500px;
-    /* margin: 2% 0 0 12%; 
-} */
-/* Styles for the Contact Us form */
+    display: flex;
+    justify-content: center;
+}
 .contact-us {
     margin: 2%;
     padding: 30px;
@@ -144,11 +118,9 @@ button:hover{
     width: 100%;
     color: white;
 }
-
 .contact-us h2 {
-    color: orangered;
-    margin-bottom: 20px;
-    text-align: center;
+   color: orangered;
+   margin-bottom: 20px;
 }
 .contact-us input[type="name"],
 .contact-us input[type="email"],
@@ -199,5 +171,85 @@ button:hover{
 .contact-us textarea {
     resize: vertical; 
     height: 120px; 
-
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+    margin: 4% 0 0 0;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.footer-about p {
+    font-size: 14px;
+    color: #ccc;
+    line-height: 1.6;
+}
+.footer-links h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+.footer-links ul li a {
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.3s ease;
+}
+.footer-links ul li a:hover{
+    color: orangered;
+}
+.footer-social h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+.social-icons li a {
+    color: #ccc;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+.social-icons li a:hover{
+    color: orangered;
+}
+.footer-contact h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.footer-contact p {
+    font-size: 14px;
+    color: #ccc;
+    margin: 5px 0;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #222;
+    margin-top: 30px;
+}
+.footer-bottom p {
+    font-size: 14px;
+    color: #ccc;
+}
 
