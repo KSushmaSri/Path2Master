@@ -95,17 +95,14 @@ button:hover{
     margin-top: 75px;
 }
 .hero h1 {
-    padding: 5px 0 0 0;
+    padding: 5px 0 5px 0;
     text-align: center;
     font-size: 32px;
-    border: 2px solid red;
 }
 .hero p{
-    border: 2px solid red;
     text-align: center;
 }
 .hero-section{
-    border: 2px solid white;
     display: flex;
     justify-content: center;
 }
