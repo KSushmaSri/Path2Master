@@ -134,15 +134,19 @@ button:hover{
 }
 .contact-us input[type="name"]:hover{
     transform: scale(1.09);
+    border: 2px solid white;
 }
 .contact-us input[type="email"]:hover{
     transform: scale(1.09);
+    border: 2px solid white;
 }
 .contact-us input[type="text"]:hover{
     transform: scale(1.09);
+    border: 2px solid white;
 }
 .contact-us textarea:hover{
     transform: scale(1.09);
+    border: 2px solid white;
 }
 .contact-us input::placeholder,
 .contact-us textarea::placeholder {
