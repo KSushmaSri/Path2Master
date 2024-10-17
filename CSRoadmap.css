@@ -269,40 +269,36 @@ h1 {
   .resources {
     margin: 100px 20px;
 }
-  h2 {
-    color: white; 
+
+h2 {
+    color: orangered; 
     text-align: center;
     margin-bottom: 20px;
   }
-  h3{
-    color: orangered;
-    text-align: center;
+  .clearfix{
+    display: flex;
+    flex-wrap: wrap;
   }
-  
   .resource-container {
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between; 
-    gap: 15px; 
+    /* flex-wrap: wrap; */
+    gap: 10px; 
     padding: 20px 0;
-    /* float: left; */
-
   }
   
   .resource-card{
     background-color: #1c1c1c; 
-     border: 2px solid orangered; 
+    border: 2px solid orangered; 
     border-radius: 40px;
     padding: 20px;
-    width: 350px;
+    width: 330px;
     height: 450px;
     box-shadow: 0px 4px 12px rgba(255, 140, 0, 0.5); 
-    float: left;
+    /* float: left; */
     margin: 15px;
     margin-bottom: 50px;
     z-index: 10; 
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;  
   }
   
   .resource-card:hover
@@ -313,24 +309,25 @@ h1 {
   
   .resource-card img 
   {
-    max-width: 80%; 
-    height: auto;
+    width: 200px;
+    height: 150px;
     border-radius: 10px;
-    margin: 15px;
+    margin: 2px 10px 15px 40px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6); 
   }
-  .clearfix::after {
+
+  /* .clearfix::after {
     content: "";
     display: table;
     clear: both;
-  }
+  } */
   .resources ul {
     list-style-type: none; 
     padding-left: 0; 
     text-align: left;
   }
   
-  .resources li {
+  .resources ul li {
     margin: 15px 0;
     font-size: 18px;
   }
@@ -359,7 +356,6 @@ h1 {
     cursor: pointer;
     color: white;
     position: relative; 
-    /* margin-top: auto; */
    
   }
   
@@ -382,7 +378,7 @@ h1 {
     display: block;
   }
   
-  .resources ul li {
+  .resources details ul li {
     margin-bottom: 10px;
     color: orangered;
     text-align: center;
@@ -399,14 +395,15 @@ h1 {
   }
   
   .resources summary {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     color: white;
     outline: none;
     text-align: left;
     z-index: 1;
   }
-  summary:hover
+
+  .resources summary:hover
   {
     color: orangered;
   }
